@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
 }
 
-Gamefury_logo.png.logo {
+.logo {
     width: 150px;
 }
 
@@ -56,3 +56,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
