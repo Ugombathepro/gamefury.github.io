@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
 }
 
-.logo {
+Gamefury_logo.png.logo {
     width: 150px;
 }
 
@@ -37,6 +37,15 @@ nav a:hover {
 main {
     padding: 40px;
     text-align: center;
+}
+
+.games ul, .hiring ul {
+    list-style: none;
+    padding: 0;
+}
+
+.games li, .hiring li {
+    margin: 10px 0;
 }
 
 footer {
