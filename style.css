@@ -44,7 +44,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background: url('https://wallpapercave.com/wp/wp5147451.jpg') no-repeat center center/cover;
+    background: url('https://raw.githubusercontent.com/gamefury-studios/website/refs/heads/main/wp5147451.png') no-repeat center center/cover;
     height: 80vh;
     display: flex;
     justify-content: center;
