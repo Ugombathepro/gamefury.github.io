@@ -1,0 +1,144 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e; /* Dark theme */
+    color: #ffffff; /* White text */
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    background-color: #282828;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff4500;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Hero Section */
+.hero {
+    background: url('wp8971629.webp') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    color: #ff4500;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero .btn {
+    background-color: #ff4500;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #ffd700;
+}
+
+/* Section Titles */
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ff4500;
+    margin-bottom: 30px;
+}
+
+/* Games Section */
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.game-card {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.game-card h3 {
+    color: #ff4500;
+    margin: 15px 0;
+}
+
+/* Hiring Section */
+.hiring-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.hiring-position {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hiring-position h3 {
+    color: #ff4500;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #282828;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
